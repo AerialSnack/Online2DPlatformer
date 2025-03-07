@@ -1,0 +1,10 @@
+[package]
+name = "project_w"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = "0.15.3"
+bevy_ggrs = "0.17.0"
+bevy_matchbox = { version = "0.11.0", features = ["ggrs"] }
+avian2d = "0.2.1"
